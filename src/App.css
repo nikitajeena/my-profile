@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  --font-small: 12px;
+  --font-medium: 18px;
+  --font-large: 24px;
+
+}
+* {
+  /* background-color: #e7e3f4; */
+}
+
+@media (max-width: 768px) {
+  #root {
+    max-width: 100%;
+    padding: 0 10px;
+    text-align: center;
+  }
+}
