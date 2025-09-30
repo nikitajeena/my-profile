@@ -1,7 +1,6 @@
 import Button from "../components/component-ui/button";
-
 import "../style/hero.css"
-export default function HeroSection({ id }: { id: string }) {
+function HeroSection({ id }: { id: string }) {
   function handleDownload() {
     window.open("/cv_nikita.pdf", "_blank");
   }
@@ -37,3 +36,5 @@ export default function HeroSection({ id }: { id: string }) {
     </section>
   );
 }
+
+export default  HeroSection
