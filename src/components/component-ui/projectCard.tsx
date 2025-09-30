@@ -1,4 +1,4 @@
-import "./component.css"
+import "../../style/component.css"
 type ProjectType = {
   projectName: string;
   githubLink: string;

@@ -1,7 +1,7 @@
 import Card from "../components/component-ui/card";
 import Heading from "../components/component-ui/header";
 import { Experience_Detail } from "../contants";
-import "./hero.css";
+import "../style/hero.css"
 export default function AboutUs({ id }: { id: string }) {
   let text =
     "Innovative, self-motivated and goal-oriented SDE with around 3+ years of hands-on experience as a Front-End Developer. Possessing in-depth knowledge of frontend Development, specializing in React and Web Development.";

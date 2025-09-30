@@ -1,6 +1,6 @@
 import ExperienceCard from "../components/component-ui/experience-card";
 import Heading from "../components/component-ui/header";
-import "./hero.css"
+import "../style/hero.css"
 export default function Experience({ id }: {id: string}) {
   return (
          <section id={id}>

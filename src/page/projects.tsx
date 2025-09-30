@@ -8,13 +8,13 @@ export default function Projects({ id }: { id: string }) {
     description: "User can add, edit and delete.",
     githubLink: "https://github.com/nikitajeena/project-team",
   };
- const projectData1 = {
+  const projectData1 = {
     projectName: "E-commerce",
     techStack: ["Next.js", "TypeScript", "CSS", "redux"],
     description: "Ecommerce .",
     githubLink: "https://github.com/nikitajeena/project-team",
   };
- const projectData2 = {
+  const projectData2 = {
     projectName: "Dashboard",
     techStack: ["Next.js", "TypeScript", "CSS", "redux"],
     description: "Ecommerce .",
@@ -26,9 +26,8 @@ export default function Projects({ id }: { id: string }) {
       <Heading text={"My Project"} />
       <div className="project-container">
         <ProjectCard project={projectData} />
-                <ProjectCard project={projectData1} />
-                <ProjectCard project={projectData2} />
-
+        <ProjectCard project={projectData1} />
+        <ProjectCard project={projectData2} />
       </div>
     </section>
   );

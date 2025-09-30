@@ -1,4 +1,4 @@
-import "./navigation.css"
+import "../../style/navigation.css"
 export default function Navigation() {
   const header_list = [
     { name: "About", id: "about" },

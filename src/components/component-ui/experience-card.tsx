@@ -1,5 +1,5 @@
 
-import "./component.css"
+import "../../style/component.css"
 export default function ExperienceCard({ techStack }: { techStack: string[] }) {
   return (
     <>

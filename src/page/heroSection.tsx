@@ -1,6 +1,6 @@
 import Button from "../components/component-ui/button";
 
-import "./hero.css";
+import "../style/hero.css"
 export default function HeroSection({ id }: { id: string }) {
   function handleDownload() {
     window.open("/cv_nikita.pdf", "_blank");

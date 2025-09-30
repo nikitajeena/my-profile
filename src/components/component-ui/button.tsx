@@ -1,5 +1,5 @@
 
-import "./component.css"
+import "../../style/component.css"
 
 type ButtonPropsType  = {
     text: string;

@@ -12,4 +12,5 @@ export default function Profile(){
 <Projects id="projects" />
 <ContactUs id="contact" />
     </>
+    
 }

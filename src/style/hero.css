@@ -46,7 +46,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-
+ border: 1px solid grey;
+  height: 10vh;
   gap: 3rem;
 }
 
@@ -61,12 +62,14 @@ section {
 }
 
 .contact-us-container {
+ 
   padding: 0rem 0rem 4rem 0rem;
 }
 
 .project-container{
   display: flex;
   align-items: center;
+  
 }
 
 @media (max-width: 768px) {
@@ -86,6 +89,25 @@ section {
   .hero-image {
     max-width: 300px;
   }
+  .project-container{
+flex-wrap: wrap;
+  
+}
+.contact-us{
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: flex-start;
+}
+.contact-us > div  > span {
+  font-size: var(--font-small);
+}
+
+.contact-us > div {
+  display: flex;
+  gap: 0.5rem;
+  /* flex-direction: column; */
+  align-items: center;
+}
 }
 
 .about-content {
